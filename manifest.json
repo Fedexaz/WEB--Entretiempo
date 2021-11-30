@@ -1,0 +1,22 @@
+{
+  "short_name": "Entretiempo",
+  "name": "Entretiempo", 
+  "icons": [
+    {
+      "src": "./recursos/img/otros/logo128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "./recursos/img/otros/logo512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./index.php",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#008000",
+  "theme_color": "#008000",
+  "gcm_sender_id": "53792446312"
+}

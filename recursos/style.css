@@ -1,0 +1,172 @@
+/*
+
+=========================================================
+= 														=
+= 	 STYLE.CSS By Fede Lahoz Interactive (Fede Lahoz)	=
+=														=
+=========================================================
+
+*/
+
+/*
+
+---------------------------------------
+BOX (BARRA DE DESPLAZAMIENTO)
+---------------------------------------
+
+*/
+
+body>div::-webkit-scrollbar 
+{
+	-webkit-appearance: none;
+}
+
+body>div::-webkit-scrollbar:vertical 
+{
+	width:5px;
+}
+
+body>div::-webkit-scrollbar-button:increment,.contenedor::-webkit-scrollbar-button 
+{
+	display: none;
+} 
+
+body>div::-webkit-scrollbar:horizontal 
+{
+	height: 5px;
+}
+
+body>div::-webkit-scrollbar-thumb 
+{
+	background-color: green;
+	border-radius: 20px;
+	border: 1px solid #f1f2f3;
+}
+
+body>div::-webkit-scrollbar-track 
+{
+	border-radius: 5px;
+}
+
+body
+{
+	margin: auto;
+	width: 100%;
+}
+
+nav
+{
+	margin: auto;
+	width: 80%;
+}
+
+.titulo
+{
+	font-size: 40px;
+}
+
+.box-grande
+{
+	border-left: 2px solid blue;
+	border-right: 2px solid blue;
+}
+
+.caja-principal
+{
+	height: 80%;
+	width: 100%;
+}
+
+/* 
+
+-------------------------
+ICONOS NAVBAR PC Y TABLET 
+-------------------------
+
+*/
+
+.icono
+{
+	font-size: 30px;
+}
+
+.icono-activo
+{
+	font-size: 35px;
+}
+
+.texto-icono
+{
+	font-size: 16px;
+}
+
+.texto-icono-activo
+{
+	font-size: 18px;
+}
+
+.tarjeta
+{
+	border-top: 2px solid blue;
+}
+/* 
+
+=============================
+=							=
+=    ESTILO PARA CELULAR    =
+=							=
+=============================
+
+*/
+
+@media (max-width: 768px)
+{
+
+	body{
+		margin: auto;
+		width: 100%;
+	}
+
+	nav{
+		margin: auto;
+		width: 100%;
+	}
+
+	.titulo
+	{
+		font-size: 18px;
+	}
+
+	.caja-principal
+	{
+		height: 83%;
+		width: 100%;
+	}
+
+	/* 
+
+	---------------------
+	ICONOS NAVBAR CELULAR 
+	---------------------
+
+	*/
+	.icono
+	{
+		font-size: 23px;
+	}
+
+	.icono-activo
+	{
+		font-size: 25px;
+	}
+
+	.texto-icono
+	{
+		font-size: 12px;
+	}
+
+	.texto-icono-activo
+	{
+		font-size: 13px;
+	}
+}
